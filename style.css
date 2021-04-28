@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.8);
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+    margin-left: 40px;
+}
+.brand-title:hover{
+    cursor: pointer;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links ul li{
+    list-style: none;
+    margin-left: 20px;
+    letter-spacing: 2.5px;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color:white;
+    padding: 1rem;
+    display: block;
+}
+.navbar li:hover{
+    background-color: #555;
+    transition: all ease 1s;
+}
+
+.content{
+    margin-top: 160px;
+    margin-left: 60px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image img{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.8);
+}
+.btn:hover{
+    background-color: #333;
+    transition: all ease 0.5s;
+}
